@@ -10,8 +10,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 .container {
-  max-width: 500px;
+  max-width: 75%;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
@@ -25,4 +26,49 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.book {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.book h1, p {
+  text-align: center;
+}
+
+.book h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coverImage {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.left-side {
+    display: inline-block;
+    max-width:30%;
+}
+
+.left-side img {
+
+  max-width: 80%;
+
+}
+
+
+
+.right-side {
+  display: inline-block;
+  max-width: 70%;
+}
+
+.review {
+  font-size: small;
 }
