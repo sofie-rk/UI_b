@@ -45,30 +45,40 @@ body {
 }
 
 .coverImage {
-  max-width: 50%;
+  max-width: 40%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.left-side {
-    display: inline-block;
-    max-width:30%;
-}
-
-.left-side img {
-
-  max-width: 80%;
-
-}
-
-
-
-.right-side {
-  display: inline-block;
-  max-width: 70%;
-}
-
 .review {
   font-size: small;
 }
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #ddd;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 95%;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+
+.btn:active {
+  transform: scale(0.98);
+}
+
