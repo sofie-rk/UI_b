@@ -27,19 +27,7 @@ export const giveThemLala = {
     review: 'Lala Kent is known from the reality series "Vanderpump Rules". In a collection of essays, Lala takes the readers through her journey from a suburban Utah life to Hollywood glamour. Openly and vulnerable, she tells stories about her upbringing, failed relationships, Vanderpump Rules filming, sobriety, meeting her fiance Randall Emmett, and more. Give Them Lala is a nice and easy read that was entertaining and funny. I\'m glad I read it, but it does not reach the top of the list for me. I think the book misses a quality story line and some important points for the reader. Maybe the book was written too early in her life and career.',
 }
 
-export const bornACrime = {
-    id: 'both0421',
-    title: 'Born a Crime - Stories from a South African Childhood',
-    author: 'Trevor Noah',
-    readIn: 'April 2021',
-    imageloc: require('../images/bornACrime.jpg'),
-    length: '8h, 44min',
-    year: 2021,
-    month: 4,
-    audiobook: true,
-    physicalbook: false,
-    review: '',
-}
+
 
 export const fiveSecondRule = {
     id: 'both0421',

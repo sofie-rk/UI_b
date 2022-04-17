@@ -1,6 +1,13 @@
+import { FaBook } from 'react-icons/fa'
+import BookType from './BookType'
+
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='header'>
+      Sofie's books <FaBook />
+      <BookType />
+    </div>
+    
   )
 }
 

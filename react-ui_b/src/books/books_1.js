@@ -14,20 +14,6 @@ export const example = {
 }
 
 
-export const dumbledore = {
-    id: 'duin0122',
-    title: 'Dumbledore: The Life and Lies of Hogwart\'s renowned Headmaster: An Unofficial Exploration',
-    author: 'Irvin Khaytman',
-    readIn: 'January-February 2022',
-    year: 2022,
-    month: 1,
-    imageloc: require('../images/dumbledore.jpeg'),
-    length: "215 pages",
-    length_pages: 215,
-    audiobook: false,
-    physicalbook: true,
-    review: 'Albus Percival Wulfric Brian Dumbledore, Headmaster of Hogwarts, one of the most mysterious figures in the Harry Potter series. Here Irvin Khyatman offers an in-depth character analysis, exploring the author\'s and fans various theories and thoughts about the extraordinary man. Whilst I don\'t agree with everything Irvin writes there are some very interesting perspectives, and I felt like the mind-blown emoji through many of the essays. Recommended for Harry Potter fans.',
-}
 
 export const theSubtleArtOfNotGivingAFuck = {
     id: '.,',
